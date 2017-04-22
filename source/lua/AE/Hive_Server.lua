@@ -1,7 +1,7 @@
 Hive.kResourceUpdateTime = 2
 Hive.kResourceValue = 2.5
 Hive.kResourcePerTick = (Hive.kResourceValue / 6) * Hive.kResourceUpdateTime
-Hive.kResourceCapPerHive = 60
+Hive.kResourceCapPerHive = 65
 
 
 local kImpulseInterval = 10
