@@ -54,7 +54,7 @@ local function UpdateResources(self)
 
 				end
 				
-				local cap = ( Hive.kResourceCapPerHive * #builtHives) )
+				local cap = ( Hive.kResourceCapPerHive * #builtHives) 
 				if team:GetTeamResources() < ( cap ) then
 					amount = math.min(Hive.kResourcePerTick, cap - team:GetTeamResources()  )
 					team:AddTeamResources(amount, true)
